@@ -26,3 +26,6 @@ docs/_build/
 
 # virtualenv
 .venv
+
+# nox
+.nox
