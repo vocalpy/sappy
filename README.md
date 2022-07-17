@@ -1,11 +1,22 @@
-# Warning
+# `sappy`
+## [Sound Analysis Pro](http://soundanalysispro.com/) in Python
 
-I've developped this library during my internship in 2017. I do not guarantee that this library provides accurate computation and is bug free. If you want to contribute, feel free to submit pull requests or fork the project. 
+## Installation
+This project is currently in development and may not be easy to install on your system.
+Please see [issues](https://github.com/vocalpy/sappy/issues).
 
-The *main* issue to asses for me is to add unit-tests that prove the accuracy of the library.
+The eventual goal is to be able to install across platform, like so:  
+`pip install SAP-Python`
+Note this name is used because there is already a [`sappy` on PyPI](https://pypi.org/project/sappy/) 
+that appears to be maintained.
 
-Interesting conversation about the future this library is available here : https://github.com/PaulEcoffet/birdsonganalysis/issues/1#issuecomment-375875378
+## Usage
+Please see examples in the [docs](./docs)
 
-
-# birdsonganalysis
-Python library to make bird song analysis, usually made with Sound Analysis Pro or Sound Analysis Toolbox.
+### Project history
+Originally developed by [Paul Ecoffet](https://www.linkedin.com/in/paulecoffet/) 
+as [`birdsonganalysis`](https://github.com/PaulEcoffet/birdsonganalysis), 
+a port to Python of [Sound Analysis Tools for Matlab](http://soundanalysispro.com/matlab-sat).
+This version being developed by [David Nicholson](https://github.com/NickleDave/),
+with help from [Therese Koch](https://github.com/theresekoch) who got the whole thing started at SciPy 2022, 
+and who insists that people should be able to use things on Windows.
